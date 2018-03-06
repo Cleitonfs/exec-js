@@ -8,9 +8,14 @@ prod1['Desconto legal'] = 0.4
 
 console.log(prod1)
 
-const prod2 = {}
-
-prod2.nome = 'Camisa polo'
-prod2.preco = 129.99
-
+const prod2 = {
+    nome = 'Camisa polo',
+    preco = 129.99,
+    obj: {
+        cod1: 1,
+        obj:{
+            cod2:2
+        }
+    }
+}
 console.log(prod2)
