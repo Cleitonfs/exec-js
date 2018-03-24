@@ -24,7 +24,6 @@ console.log(soma2(0,0,0))
 
 //estrategia com es2015
 function soma2(a=1, b=1, c=1){
-    
     return a + b + c
 }
 console.log(soma2(10, 5))
