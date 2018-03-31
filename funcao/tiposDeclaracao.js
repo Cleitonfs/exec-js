@@ -1,5 +1,5 @@
 console.log(soma(10, 5))
-console.log(sub(10, 5))
+
 
 
 
