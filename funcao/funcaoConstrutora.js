@@ -18,7 +18,7 @@ function Carro (velocidadeMaxima = 200, delta = 5) {
     }
 }
 
-const uno = new Carro
+const uno = new Carro //pode ser const uno = new Carro()
 uno.acelerar()
 console.log(uno.getVelocidadeAtual())
 
